@@ -5,7 +5,7 @@
 :set colorcolumn=80
 :set background=dark
 :color molokai
-:set gfn=Monospace\ 12
+:set gfn=DejaVu\ Sans\ Mono\ 12
 :set wrap!
 :set autoindent!
 :set nocindent!
