@@ -23,7 +23,8 @@
 ; ! is alt
 ; # is win
 
-Capslock::Numlock
+; uncomment this to bind scrolllock to numlock so that numlock can be used
+; Capslock::Numlock
 
 !f9::WinMinimize,a
 !f10::WinMaximize,a
