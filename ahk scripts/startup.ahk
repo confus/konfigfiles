@@ -11,8 +11,8 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;-------------------------------------------------------------------------------------------------------------------------------------
 
-Run C:\Program Files (x86)\Dropbox\Client\Dropbox.exe
+Run C:\Users\spooks\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Dropbox.lnk
 Run C:\Program Files (x86)\Google\Drive\googledrivesync.exe
-
+sleep 1000
 Run C:\prgms\Steam\Steam.exe
 Run C:\prgms\Thunderbird\thunderbird.exe
