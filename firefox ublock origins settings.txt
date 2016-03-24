@@ -1,0 +1,105 @@
+{
+  "timeStamp": 1458860098216,
+  "version": "1.6.4",
+  "userSettings": {
+    "advancedUserEnabled": false,
+    "autoUpdate": true,
+    "cloudStorageEnabled": false,
+    "collapseBlocked": true,
+    "colorBlindFriendly": false,
+    "contextMenuEnabled": true,
+    "dynamicFilteringEnabled": true,
+    "experimentalEnabled": false,
+    "externalLists": "! Examples:\n! https://easylist-downloads.adblockplus.org/fb_annoyances_full.txt\n! https://easylist-downloads.adblockplus.org/fb_annoyances_sidebar.txt\n! https://easylist-downloads.adblockplus.org/fb_annoyances_newsfeed.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_full.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_comments.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_suggestions.txt\n! https://easylist-downloads.adblockplus.org/yt_annoyances_other.txt",
+    "firewallPaneMinimized": true,
+    "hyperlinkAuditingDisabled": true,
+    "largeMediaSize": 50,
+    "parseAllABPHideFilters": true,
+    "prefetchingDisabled": true,
+    "requestLogMaxEntries": 1000,
+    "showIconBadge": true,
+    "tooltipsDisabled": false,
+    "webrtcIPAddressHidden": false
+  },
+  "filterLists": {
+    "assets/user/filters.txt": {
+      "group": "default",
+      "off": false,
+      "entryCount": 0,
+      "entryUsedCount": 0
+    },
+    "assets/ublock/experimental.txt": {
+      "title": "uBlock filters – Experimental",
+      "group": "default",
+      "off": true,
+      "supportURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
+      "instructionURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
+      "supportName": "github.com"
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
+      "title": "EasyList",
+      "group": "ads",
+      "homeURL": "https://easylist-downloads.adblockplus.org/easylist.txt",
+      "supportURL": "https://forums.lanik.us/",
+      "off": false,
+      "entryCount": 62375,
+      "entryUsedCount": 62267
+    },
+    "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
+      "title": "EasyPrivacy",
+      "group": "privacy",
+      "homeURL": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+      "supportURL": "https://forums.lanik.us/",
+      "off": false,
+      "entryCount": 11231,
+      "entryUsedCount": 11099
+    },
+    "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt": {
+      "off": false,
+      "title": "Fanboy’s Annoyance List",
+      "group": "social",
+      "supportURL": "https://forums.lanik.us/",
+      "entryCount": 21998,
+      "entryUsedCount": 21997
+    },
+    "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains": {
+      "title": "Malware domains",
+      "group": "malware",
+      "homeURL": "https://mirror.cedia.org.ec/malwaredomains/justdomains",
+      "supportURL": "http://www.malwaredomains.com/",
+      "off": false,
+      "entryCount": 17739,
+      "entryUsedCount": 17637
+    },
+    "assets/thirdparties/pgl.yoyo.org/as/serverlist": {
+      "title": "Peter Lowe’s Ad server list",
+      "group": "ads",
+      "homeURL": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext",
+      "supportURL": "https://pgl.yoyo.org/adservers/",
+      "off": false,
+      "entryCount": 2425,
+      "entryUsedCount": 1881
+    },
+    "http://someonewhocares.org/hosts/hosts": {
+      "off": false,
+      "title": "Dan Pollock’s hosts file",
+      "group": "multipurpose",
+      "supportURL": "http://someonewhocares.org/hosts/",
+      "entryCount": 12094,
+      "entryUsedCount": 12091
+    },
+    "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt": {
+      "title": "Malware Domain List",
+      "group": "malware",
+      "homeURL": "https://www.malwaredomainlist.com/hostslist/hosts.txt",
+      "off": false,
+      "entryCount": 1572,
+      "entryUsedCount": 1572
+    }
+  },
+  "netWhitelist": "about-scheme\nbehind-the-scene\nchrome-extension-scheme\nchrome-scheme\nloopconversation.about-scheme\nopera-scheme",
+  "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "",
+  "userFilters": ""
+}
