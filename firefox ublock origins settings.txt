@@ -1,10 +1,10 @@
 {
-  "timeStamp": 1458860098216,
-  "version": "1.6.4",
+  "timeStamp": 1459616486626,
+  "version": "1.6.6",
   "userSettings": {
     "advancedUserEnabled": false,
     "autoUpdate": true,
-    "cloudStorageEnabled": false,
+    "cloudStorageEnabled": true,
     "collapseBlocked": true,
     "colorBlindFriendly": false,
     "contextMenuEnabled": true,
@@ -19,22 +19,21 @@
     "requestLogMaxEntries": 1000,
     "showIconBadge": true,
     "tooltipsDisabled": false,
-    "webrtcIPAddressHidden": false
+    "webrtcIPAddressHidden": true
   },
   "filterLists": {
     "assets/user/filters.txt": {
       "group": "default",
       "off": false,
-      "entryCount": 0,
-      "entryUsedCount": 0
+      "entryCount": 2,
+      "entryUsedCount": 2
     },
     "assets/ublock/experimental.txt": {
       "title": "uBlock filters – Experimental",
       "group": "default",
       "off": true,
       "supportURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
-      "instructionURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
-      "supportName": "github.com"
+      "instructionURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters"
     },
     "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
       "title": "EasyList",
@@ -42,8 +41,8 @@
       "homeURL": "https://easylist-downloads.adblockplus.org/easylist.txt",
       "supportURL": "https://forums.lanik.us/",
       "off": false,
-      "entryCount": 62375,
-      "entryUsedCount": 62267
+      "entryCount": 62728,
+      "entryUsedCount": 62619
     },
     "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
       "title": "EasyPrivacy",
@@ -51,16 +50,16 @@
       "homeURL": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
       "supportURL": "https://forums.lanik.us/",
       "off": false,
-      "entryCount": 11231,
-      "entryUsedCount": 11099
+      "entryCount": 11324,
+      "entryUsedCount": 11192
     },
     "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt": {
       "off": false,
       "title": "Fanboy’s Annoyance List",
       "group": "social",
       "supportURL": "https://forums.lanik.us/",
-      "entryCount": 21998,
-      "entryUsedCount": 21997
+      "entryCount": 22244,
+      "entryUsedCount": 22244
     },
     "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains": {
       "title": "Malware domains",
@@ -77,16 +76,16 @@
       "homeURL": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext",
       "supportURL": "https://pgl.yoyo.org/adservers/",
       "off": false,
-      "entryCount": 2425,
-      "entryUsedCount": 1881
+      "entryCount": 2422,
+      "entryUsedCount": 1877
     },
     "http://someonewhocares.org/hosts/hosts": {
       "off": false,
       "title": "Dan Pollock’s hosts file",
       "group": "multipurpose",
       "supportURL": "http://someonewhocares.org/hosts/",
-      "entryCount": 12094,
-      "entryUsedCount": 12091
+      "entryCount": 11720,
+      "entryUsedCount": 11717
     },
     "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt": {
       "title": "Malware Domain List",
@@ -101,5 +100,5 @@
   "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "",
-  "userFilters": ""
+  "userFilters": "! 3/31/2016, 9:03:14 PM http://warframe.wikia.com/wiki/Orokin_Void\nwarframe.wikia.com###RECIRCULATION_RAIL > .group-CONTROL.module.recirculation-rail\n\n! 3/31/2016, 9:03:32 PM http://warframe.wikia.com/wiki/Orokin_Void\nwarframe.wikia.com###WikiaRail > .module.ChatModule\n"
 }
